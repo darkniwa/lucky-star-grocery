@@ -1,0 +1,72 @@
+body {
+    background-color: #f2f7ff;
+}
+
+.img-50px {
+    width: 100px;
+    padding: 10px;
+}
+
+.input-editable-disabled {
+    width: 50%;
+    border: 0;
+    background-color: white;
+    color: #607080;
+}
+
+.input-editable-enabled {
+    appearance: none;
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid #dce7f1;
+    border-radius: 0.25rem;
+    color: #607080;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0.375rem 0.75rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    width: 50%;
+}
+
+/* Custom badge colors */
+.badge-manager {
+    background-color: #e74c3c; /* Alizarin (Red) */
+    color: #ffffff; /* White text */
+}
+
+.badge-courier {
+    background-color: #f39c12; /* Sunflower (Yellow) */
+    color: #ffffff; /* White text */
+}
+
+.badge-cashier {
+    background-color: #3498db; /* Peter River (Blue) */
+    color: #ffffff; /* White text */
+}
+
+.badge-promodiser {
+    background-color: #9b59b6; /* Amethyst (Purple) */
+    color: #ffffff; /* White text */
+}
+
+.default-picture {
+    border-radius: 10px;
+    width: 150px; /* Set your desired width */
+    height: 150px; /* Set your desired height */
+}
+
+.equal-height {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#suggestions ul.dropdown-menu li {
+    padding: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#table-remittance-history tbody tr:hover {
+    background-color: #f5f5f5;
+}

@@ -1,0 +1,95 @@
+.login-on-checkout .form-row label.checkout_form_label {
+    display: inline;
+    margin: 10px;
+}
+
+.login-on-checkout .form-row label.checkout_form_label.disabled {
+    display: inline;
+    margin: 10px;
+    color: darkgrey;
+}
+
+.order-summary .subtotal.proceed li:last-child {
+    border-top: 1px solid #e6e6e6;
+    padding: 0px;
+}
+
+.shpcart-subtotal-block.proceed {
+    background-color: #fafafa;
+    padding: 0px;
+    margin: 0px;
+}
+
+.btn-google-login {
+    height: 50px;
+    width: 100%;
+}
+
+.swal2-popup {
+    width: 500px !important; /* Adjust the width as needed */
+    font-size: 16px !important; /* Adjust the font size as needed */
+}
+
+.verified-code {
+    color: green;
+}
+
+.not-verified-code {
+    color: red;
+}
+
+.split-card {
+    border: none;
+}
+
+.split-card {
+    border: none;
+}
+
+.row.no-gutters {
+    display: flex;
+}
+
+.dark-background {
+    background-color: #1a1a1a;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dark-card {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.light-background {
+    background-color: #f4f4f4;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+}
+
+.square-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 270px; /* Set your desired fixed width */
+    height: 270px; /* Set your desired fixed height */
+    overflow: hidden;
+}
+
+.product-thumbnail {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain; /* This ensures the image fits without stretching */
+}
+
+.contain-product .info .product-title a {
+    height: 38px;
+}
